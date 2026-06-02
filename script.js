@@ -8,7 +8,7 @@ const products = [
   {
     id: 2,
     name: "Smart Watch",
-    price: 999,
+    price: 1999,
     image: "watch.jpg"
   },
   {
