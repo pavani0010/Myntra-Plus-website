@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Myntra Plus - Checkout</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="navbar">
+    <h1>Myntra Plus</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="products.html">Products</a>
+      <a href="cart.html">Cart <span id="cart-count">0</span></a>
+      <a href="checkout.html">Checkout</a>
+    </nav>
+  </header>
+
+  <section class="checkout-section">
+    <h2>Checkout</h2>
+    <form id="checkout-form">
+      <input type="text" placeholder="Full Name" required>
+      <input type="text" placeholder="Mobile Number" required>
+      <textarea placeholder="Delivery Address" required></textarea>
+      <input type="text" placeholder="City" required>
+      <input type="text" placeholder="Pincode" required>
+      <select required>
+        <option value="">Select Payment Method</option>
+        <option>Cash on Delivery</option>
+        <option>UPI</option>
+        <option>Card</option>
+      </select>
+      <button type="submit" class="btn">Place Order</button>
+    </form>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
