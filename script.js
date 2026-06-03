@@ -3,25 +3,25 @@ const products = [
     id: 1,
     name: "Wireless Headphones",
     price: 2999,
-    image: "headphones.jpg"
+    image: "images/headphones.jpg"
   },
   {
     id: 2,
     name: "Smart Watch",
     price: 1999,
-    image: "watch.jpg"
+    image: "images/watch.jpg"
   },
   {
     id: 3,
     name: "Laptop Stand",
     price: 49999,
-    image: "laptop.jpg"
+    image: "images/laptop.jpg"
   },
   {
     id: 4,
     name: "Mobile Phones",
     price: 19999,
-    image: "mobile.png"
+    image: "images/mobile.png"
   }
 ];
 
